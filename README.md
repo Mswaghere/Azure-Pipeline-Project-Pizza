@@ -44,6 +44,6 @@ Created a Dashboard according to the business requirements.
 
 
 # Summary of Project Flow
-Data Transfer: SQL Server → Azure Data Factory → Azure Blob Storage
-Data Processing: Azure Blob Storage → Databricks (using PySpark, Spark SQL)
-Reporting: Databricks → Power BI for visualization and business insights
+1. Data Transfer: SQL Server → Azure Data Factory → Azure Blob Storage 
+2. Data Processing: Azure Blob Storage → Databricks (using PySpark, Spark SQL)
+3. Reporting: Databricks → Power BI for visualization and business insights
