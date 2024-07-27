@@ -1,5 +1,5 @@
 
-# Azure-Project (SQL - Azure Data Factory - DataBricks - PySpark - Power BI)
+# Azure Pipeline Project (SQL - Azure Data Factory - DataBricks - PySpark - Power BI)
 
 # Business Requirements 
 We have data available in the SQL server and we need to move it to cloud storage. Build a pipeline to transfer data and run daily. Connect it with a DataBricks account, and also create an aggregated table for reporting with business-related KPIs. Build a dashboard to understand the data and make business decisions. 
