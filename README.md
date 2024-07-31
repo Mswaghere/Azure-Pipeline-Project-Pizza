@@ -9,37 +9,40 @@ We have data available in the SQL server and we need to move it to cloud storage
 
 # Step-By-Step Process 
 
-Step 1: Set Up Azure Data Factory
+### Step 1: Set Up Azure Data Factory
 Created an Azure Data Factory Instance.
 Created a linked service for your SQL Server to connect to the data source.
 Created another linked service for Azure Blob Storage to define where the data will be moved.
 
-Step 2: Build the Data Pipeline
+### Step 2: Build the Data Pipeline
 Created a Pipeline.
 Used the Copy Data activity to define the data transfer from SQL Server to Azure Storage.
 Set the source dataset to your SQL Server-linked service.
 Set the destination dataset to your Azure Blob Storage linked service.
+
 ![Screenshot_20240725_141350](https://github.com/user-attachments/assets/b24f110f-7347-471a-9ec3-9729dda61e86)
 
 
-Step 3: Schedule the Pipeline
+### Step 3: Schedule the Pipeline
 Created a Schedule Trigger.
 Specified the start time(daily), and time zone settings to ensure it runs at the desired time.
 
-Step 4: Connect to Databricks
+### Step 4: Connect to Databricks
 Created a Databricks Workspace.
 Created a Notebook.
 Used PySpark to read the data from Azure Blob Storage.
 Aggregate Data Using PySpark:
 Wrote PySpark code to perform transformations and created an aggregated table according to KPIs.
+
 ![Screenshot_20240725_141648](https://github.com/user-attachments/assets/84897a0c-71a5-42cc-a7e1-5a109a3e0480)
 ![Screenshot_20240725_141717](https://github.com/user-attachments/assets/d445d8e9-60f4-48d2-ab3d-f83ef679ecb6)
 
 
 
-Step 5: Created a Power BI Dashboard
+### Step 5: Created a Power BI Dashboard
 Connected Power BI to DataBricks Account.
 Created a Dashboard according to the business requirements.
+
 ![Screenshot_20240725_142028](https://github.com/user-attachments/assets/57ceb4b3-edb6-41a5-9fbe-19ceda2b4308)
 
 
